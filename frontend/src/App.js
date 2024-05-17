@@ -3,6 +3,7 @@ import { Cards } from './components/Cards/Cards'
 import { AnchorForCourses } from './components/button/AnchorForCourses'
 import { MainSection } from './components/mainSection/mainSection'
 import { NavItem } from './components/navItem'
+import { Reviews } from './components/reviews/reviews'
 import { SuitsCards } from './components/suitsCards/suitsCards'
 import { TitleSection } from './components/titleSection/titleSection'
 import { ReactComponent as Calendar } from './images/calendar.svg'
@@ -120,10 +121,14 @@ function App() {
 				</div>
 			</div>
 			<div className='container mx-auto flex py-28'>
-			<div className='flex justify-center'>
-						<TitleSection text='Отзывы о курсах 4brain:' />
+			<div className='mx-auto'>
+						<div className='flex justify-center'>
+							<TitleSection className='text-center' text='Отзывы о курсах 4brain:' />
+						</div>
+						<div className='mt-20 max-w-[1200px]'>
+							<Reviews />
+						</div>
 					</div>
-
 			</div>
 		</div>
 	)
