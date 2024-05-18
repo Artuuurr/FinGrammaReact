@@ -107,10 +107,10 @@ export const Reviews = () => {
 							</div>
 						</div>
 						<div className='my-4'>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Aspernatur voluptatum obcaecati, magni quisquam ipsa ea animi
-							sequi odit consequatur doloribus. Unde, et asperiores vero harum
-							laborum cupiditate nostrum rerum ratione.
+							Замечательный курс. Много полезной информации собрано в одном
+							месте. Плюс практика на каждый урок. А так же множество ссылок на
+							дополнительные материалы, которые после прохождения курса, можно
+							дополнительно изучать.
 						</div>
 					</div>
 				</div>
@@ -132,10 +132,9 @@ export const Reviews = () => {
 							</div>
 						</div>
 						<div className='my-4'>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Aspernatur voluptatum obcaecati, magni quisquam ipsa ea animi
-							sequi odit consequatur doloribus. Unde, et asperiores vero harum
-							laborum cupiditate nostrum rerum ratione.
+							Не ожидала, что в таком относительно небольшом курсе будет СТОЛЬКО
+							практик, кейсов и интересных занятий. Великолепная подача, никакой
+							«воды». Уже с удовольствием рекомендую вас знакомым.
 						</div>
 					</div>
 				</div>
@@ -157,10 +156,10 @@ export const Reviews = () => {
 							</div>
 						</div>
 						<div className='my-4'>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Aspernatur voluptatum obcaecati, magni quisquam ipsa ea animi
-							sequi odit consequatur doloribus. Unde, et asperiores vero harum
-							laborum cupiditate nostrum rerum ratione.
+							Прохожу уже второй курс, очень интересный материал, достаточно
+							краткий, но в тоже время очень информативный. Много
+							дополнительного полезного материала, который также изложен кратко
+							и достпно.
 						</div>
 					</div>
 				</div>
@@ -175,17 +174,15 @@ export const Reviews = () => {
 								/>
 							</div>
 							<div>
-								<div className='font-bold text-xl'>Елизавета</div>
+								<div className='font-bold text-xl'>Дима</div>
 								<div>
 									Балл за курс <b>10/10</b>
 								</div>
 							</div>
 						</div>
 						<div className='my-4'>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Aspernatur voluptatum obcaecati, magni quisquam ipsa ea animi
-							sequi odit consequatur doloribus. Unde, et asperiores vero harum
-							laborum cupiditate nostrum rerum ratione.
+							Это мой первый курс от команды 4brain, и он мне очень понравился!
+							Полезного материала действительно очень много.
 						</div>
 					</div>
 				</div>
@@ -200,17 +197,17 @@ export const Reviews = () => {
 								/>
 							</div>
 							<div>
-								<div className='font-bold text-xl'>Елизавета</div>
+								<div className='font-bold text-xl'>Барон</div>
 								<div>
 									Балл за курс <b>10/10</b>
 								</div>
 							</div>
 						</div>
 						<div className='my-4'>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Aspernatur voluptatum obcaecati, magni quisquam ipsa ea animi
-							sequi odit consequatur doloribus. Unde, et asperiores vero harum
-							laborum cupiditate nostrum rerum ratione.
+							Так или иначе с многими методиками знаком, но ваш курс наполнен
+							методиками и практиками которые я ранее не знал, полезный курс,
+							буду рекомендовать для его прохождения коллегам, друзьям и близким
+							знакомым! Спасибо вам за развитие!
 						</div>
 					</div>
 				</div>
