@@ -23,6 +23,10 @@ const paymentSchema = new mongoose.Schema({
   cardNumber: String,
   cvv: String,
   expiryDate: String,
+	timestamp: {
+    type: Date,
+    default: Date.now
+  }
 });
 
 // Модель платежа
