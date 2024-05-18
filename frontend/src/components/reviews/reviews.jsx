@@ -17,7 +17,7 @@ export const Reviews = () => {
 		<div className='slider-container'>
 			<Slider {...settings}>
 				<div className='m-10 '>
-					<div className='ml-10 px-10 py-8 shadow-xl  rounded-xl'>
+					<div className='h-96 ml-10 px-10 py-8 shadow-xl  rounded-xl'>
 						<div className='flex py-4 items-center'>
 							<div className=' w-16 h-16 mr-4'>
 								<img
@@ -41,7 +41,7 @@ export const Reviews = () => {
 					</div>
 				</div>
 				<div className='m-10 '>
-					<div className='ml-10 px-10 py-8 shadow-xl  rounded-xl'>
+					<div className='h-96 ml-10 px-10 py-8 shadow-xl  rounded-xl'>
 						<div className='flex py-4 items-center'>
 							<div className=' w-16 h-16 mr-4'>
 								<img
@@ -65,7 +65,7 @@ export const Reviews = () => {
 					</div>
 				</div>
 				<div className='m-10 '>
-					<div className='ml-10 px-10 py-8 shadow-xl  rounded-xl'>
+					<div className='h-96 ml-10 px-10 py-8 shadow-xl  rounded-xl'>
 						<div className='flex py-4 items-center'>
 							<div className=' w-16 h-16 mr-4'>
 								<img
@@ -90,7 +90,7 @@ export const Reviews = () => {
 					</div>
 				</div>
 				<div className='m-10 '>
-					<div className='ml-10 px-10 py-8 shadow-xl  rounded-xl'>
+					<div className='h-96 ml-10 px-10 py-8 shadow-xl  rounded-xl'>
 						<div className='flex py-4 items-center'>
 							<div className=' w-16 h-16 mr-4'>
 								<img
@@ -115,7 +115,7 @@ export const Reviews = () => {
 					</div>
 				</div>
 				<div className='m-10 '>
-					<div className='ml-10 px-10 py-8 shadow-xl  rounded-xl'>
+					<div className='h-96 ml-10 px-10 py-8 shadow-xl  rounded-xl'>
 						<div className='flex py-4 items-center'>
 							<div className=' w-16 h-16 mr-4'>
 								<img
@@ -140,7 +140,7 @@ export const Reviews = () => {
 					</div>
 				</div>
 				<div className='m-10'>
-					<div className='ml-10 px-10 py-8 shadow-xl  rounded-xl'>
+					<div className='h-96 ml-10 px-10 py-8 shadow-xl  rounded-xl'>
 						<div className='flex py-4 items-center'>
 							<div className=' w-16 h-16 mr-4'>
 								<img
@@ -165,7 +165,7 @@ export const Reviews = () => {
 					</div>
 				</div>
 				<div className='m-10 '>
-					<div className='ml-10 px-10 py-8 shadow-xl  rounded-xl'>
+					<div className='h-96 ml-10 px-10 py-8 shadow-xl  rounded-xl'>
 						<div className='flex py-4 items-center'>
 							<div className=' w-16 h-16 mr-4'>
 								<img
@@ -190,7 +190,7 @@ export const Reviews = () => {
 					</div>
 				</div>
 				<div className='m-10 '>
-					<div className='ml-10 px-10 py-8 shadow-xl  rounded-xl'>
+					<div className='h-96 ml-10 px-10 py-8 shadow-xl  rounded-xl'>
 						<div className='flex py-4 items-center'>
 							<div className=' w-16 h-16 mr-4'>
 								<img

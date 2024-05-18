@@ -50,12 +50,42 @@ function App() {
 					<TitleSection text='На этом курсе вы научитесь:' />
 
 					<div className='grid grid-cols-3 pt-14 '>
-						<Cards mark='whyCards' imgRoute='/images/check.svg' title='Основам и определениям' text='Получите четкое понимание того, что такое финансовая грамотность и почему она является краеугольным камнем успеха в любой сфере жизни.' />
-						<Cards mark='whyCards' imgRoute='/images/users.svg' title='Пониманию сути денег' text='Изучите историческое и современное значение денег, их свойства и роль в экономике.' />
-						<Cards mark='whyCards' imgRoute='/images/edit.svg' title='Планированию своих финансов' text='Научитесь эффективно планировать свой бюджет и вести финансовый учет.' />
-						<Cards mark='whyCards' imgRoute='/images/briefcase.svg' title='Понимать финансовую систему' text='Изучите, как устроена глобальная финансовая система, каковы функции и роль различных финансовых организаций, и как это влияет на вашу личную финансовую жизнь.' />
-						<Cards mark='whyCards' imgRoute='/images/bullseye.svg' title='Инвестированию и накоплению' text='Освоите базовые принципы инвестирования и накопления. Узнаете, как разумно вкладывать средства и строить свой капитал.' />
-						<Cards mark='whyCards' imgRoute='/images/human.svg' title='Развитию финансового мышления' text='Преобразите свой подход к деньгам, улучшите свое финансовое мышление для более эффективного управления личными финансами.' />
+						<Cards
+							mark='whyCards'
+							imgRoute='/images/check.svg'
+							title='Основам и определениям'
+							text='Получите четкое понимание того, что такое финансовая грамотность и почему она является краеугольным камнем успеха в любой сфере жизни.'
+						/>
+						<Cards
+							mark='whyCards'
+							imgRoute='/images/users.svg'
+							title='Пониманию сути денег'
+							text='Изучите историческое и современное значение денег, их свойства и роль в экономике.'
+						/>
+						<Cards
+							mark='whyCards'
+							imgRoute='/images/edit.svg'
+							title='Планированию своих финансов'
+							text='Научитесь эффективно планировать свой бюджет и вести финансовый учет.'
+						/>
+						<Cards
+							mark='whyCards'
+							imgRoute='/images/briefcase.svg'
+							title='Понимать финансовую систему'
+							text='Изучите, как устроена глобальная финансовая система, каковы функции и роль различных финансовых организаций, и как это влияет на вашу личную финансовую жизнь.'
+						/>
+						<Cards
+							mark='whyCards'
+							imgRoute='/images/bullseye.svg'
+							title='Инвестированию и накоплению'
+							text='Освоите базовые принципы инвестирования и накопления. Узнаете, как разумно вкладывать средства и строить свой капитал.'
+						/>
+						<Cards
+							mark='whyCards'
+							imgRoute='/images/human.svg'
+							title='Развитию финансового мышления'
+							text='Преобразите свой подход к деньгам, улучшите свое финансовое мышление для более эффективного управления личными финансами.'
+						/>
 					</div>
 					<div className='flex justify-center '>
 						<AnchorForCourses text='Хочу научиться!' />
@@ -71,12 +101,36 @@ function App() {
 								<TitleSection text='Курс вам подходит, если:' />
 							</div>
 							<div className=' w-3/5'>
-								<SuitsCards imgRoute='/images/icon-list.svg' textBold='Вы хотите наладить личные финансы' text=' и стремитесь к более эффективному управлению своими доходами и расходами.' />
-								<SuitsCards imgRoute='/images/icon-analyst.svg' textBold='Вы планируете начать инвестировать' text=' и хотите изучить основы управления своими инвестициями.' />
-								<SuitsCards imgRoute='/images/icon-handshake.svg' textBold='Вы бизнесмен или руководитель' text=', поэтому нуждаетесь в глубоком понимании финансов для лучшего управления бизнесом.' />
-								<SuitsCards imgRoute='/images/icon-tribune.svg' textBold='Вы ищете уверенность в финансовых решениях' text=', хотите научиться создавать и увеличивать свои сбережения для будущих целей.' />
-								<SuitsCards imgRoute='/images/icon-dreaming.svg' textBold='Вы стремитесь к финансовой независимости' text=', желаете улучшить свое критическое мышление в финансовой сфере.' />
-								<SuitsCards imgRoute='/images/icon-joy.svg' textBold='Вы заинтересованы в развитии финансового мышления' text=', хотите научиться принимать их обдуманно и взвешенно.' />
+								<SuitsCards
+									imgRoute='/images/icon-list.svg'
+									textBold='Вы хотите наладить личные финансы'
+									text=' и стремитесь к более эффективному управлению своими доходами и расходами.'
+								/>
+								<SuitsCards
+									imgRoute='/images/icon-analyst.svg'
+									textBold='Вы планируете начать инвестировать'
+									text=' и хотите изучить основы управления своими инвестициями.'
+								/>
+								<SuitsCards
+									imgRoute='/images/icon-handshake.svg'
+									textBold='Вы бизнесмен или руководитель'
+									text=', поэтому нуждаетесь в глубоком понимании финансов для лучшего управления бизнесом.'
+								/>
+								<SuitsCards
+									imgRoute='/images/icon-tribune.svg'
+									textBold='Вы ищете уверенность в финансовых решениях'
+									text=', хотите научиться создавать и увеличивать свои сбережения для будущих целей.'
+								/>
+								<SuitsCards
+									imgRoute='/images/icon-dreaming.svg'
+									textBold='Вы стремитесь к финансовой независимости'
+									text=', желаете улучшить свое критическое мышление в финансовой сфере.'
+								/>
+								<SuitsCards
+									imgRoute='/images/icon-joy.svg'
+									textBold='Вы заинтересованы в развитии финансового мышления'
+									text=', хотите научиться принимать их обдуманно и взвешенно.'
+								/>
 							</div>
 						</div>
 						<div className='flex '>
@@ -89,12 +143,42 @@ function App() {
 				<div>
 					<TitleSection text='Что я узнаю?' />
 					<div className='grid grid-cols-3 pt-14 '>
-						<Cards mark='findCards' imgRoute='/images/53.webp' title='Что такое финансовая грамотность' text='Определение финансовой грамотности, ее важность и влияние на личную и профессиональную жизнь.' />
-						<Cards mark='findCards' imgRoute='/images/22.webp' title='Сущность товара и денег' text='История и эволюция денег, понимание их как товара и функции в современной экономике.' />
-						<Cards mark='findCards' imgRoute='/images/1.webp' title='Личное финансовое планирование' text='Методы и стратегии для управления личными финансами, включая планирование бюджета и сбережений.' />
-						<Cards mark='findCards' imgRoute='/images/6.webp' title='Финансовые организации и их роль' text='Разбор структуры и функций финансовых организаций, включая централизованные и децентрализованные системы.' />
-						<Cards mark='findCards' imgRoute='/images/44.webp' title='Психология денег' text='Как отношение к деньгам влияет на финансовое поведение и как развить здоровые финансовые привычки.' />
-						<Cards mark='findCards' imgRoute='/images/2.webp' title='Инструменты финансового анализа' text='Основные инструменты и методы для анализа финансовой информации и принятия обоснованных финансовых решений.' />
+						<Cards
+							mark='findCards'
+							imgRoute='/images/53.webp'
+							title='Что такое финансовая грамотность'
+							text='Определение финансовой грамотности, ее важность и влияние на личную и профессиональную жизнь.'
+						/>
+						<Cards
+							mark='findCards'
+							imgRoute='/images/22.webp'
+							title='Сущность товара и денег'
+							text='История и эволюция денег, понимание их как товара и функции в современной экономике.'
+						/>
+						<Cards
+							mark='findCards'
+							imgRoute='/images/1.webp'
+							title='Личное финансовое планирование'
+							text='Методы и стратегии для управления личными финансами, включая планирование бюджета и сбережений.'
+						/>
+						<Cards
+							mark='findCards'
+							imgRoute='/images/6.webp'
+							title='Финансовые организации и их роль'
+							text='Разбор структуры и функций финансовых организаций, включая централизованные и децентрализованные системы.'
+						/>
+						<Cards
+							mark='findCards'
+							imgRoute='/images/44.webp'
+							title='Психология денег'
+							text='Как отношение к деньгам влияет на финансовое поведение и как развить здоровые финансовые привычки.'
+						/>
+						<Cards
+							mark='findCards'
+							imgRoute='/images/2.webp'
+							title='Инструменты финансового анализа'
+							text='Основные инструменты и методы для анализа финансовой информации и принятия обоснованных финансовых решений.'
+						/>
 					</div>
 					<div className='flex justify-center '>
 						<AnchorForCourses text='Записаться' />
@@ -111,9 +195,24 @@ function App() {
 						получите много полезного.
 					</p>
 					<div className='grid grid-cols-3 pt-14 text-center'>
-						<Cards mark='getCards' imgRoute='/images/what-after-diploma.webp' title='Онлайн-сертификат' text='Об участии в онлайн-программе с подписью и печатью ООО 4брэйн.' />
-						<Cards mark='getCards' imgRoute='/images/what-after-summary.webp' title='Дополнительные материалы' text='Сохраняйте ссылки на статьи, названия книг и другие полезные ресурсы.' />
-						<Cards mark='getCards' imgRoute='/images/what-after-statistics.webp' title='Статистика' text='Информация о вашем прогрессе на программе и в отдельных упражнениях.' />
+						<Cards
+							mark='getCards'
+							imgRoute='/images/what-after-diploma.webp'
+							title='Онлайн-сертификат'
+							text='Об участии в онлайн-программе с подписью и печатью ООО 4брэйн.'
+						/>
+						<Cards
+							mark='getCards'
+							imgRoute='/images/what-after-summary.webp'
+							title='Дополнительные материалы'
+							text='Сохраняйте ссылки на статьи, названия книг и другие полезные ресурсы.'
+						/>
+						<Cards
+							mark='getCards'
+							imgRoute='/images/what-after-statistics.webp'
+							title='Статистика'
+							text='Информация о вашем прогрессе на программе и в отдельных упражнениях.'
+						/>
 					</div>
 					<div className='flex justify-center'>
 						<AnchorForCourses text='Хочу на курс!' />
@@ -121,14 +220,48 @@ function App() {
 				</div>
 			</div>
 			<div className='container mx-auto flex py-28'>
-			<div className='mx-auto'>
-						<div className='flex justify-center'>
-							<TitleSection className='text-center' text='Отзывы о курсах 4brain:' />
-						</div>
-						<div className='mt-20 max-w-[1200px]'>
-							<Reviews />
-						</div>
+				<div className='mx-auto'>
+					<div className='flex justify-center'>
+						<TitleSection
+							className='text-center'
+							text='Отзывы о курсах 4brain:'
+						/>
 					</div>
+					<div className='mt-20 max-w-[1200px]'>
+						<Reviews />
+					</div>
+				</div>
+			</div>
+			<div className='backGround'>
+				<div className='container mx-auto flex py-28'>
+					<div className=' bg-slate-200 rounded-l-2xl p-11 h-[600px]'>
+						<div className='text-xl mt-4 '>Вы покупаете:</div>
+						<div className='text-xl mt-7 text-mainColor font-bold'>Финансовая грамотность</div>
+						<div className='mb-10'>с 20.05.2024 по 20.06.2024</div>
+						<div>Цена: .................................................. 2990 ₽</div>
+						<div>Временная скидка: ...................... 2000 ₽</div>
+						<hr className='mt-4 mb-4 ' />
+						<div className=' font-semibold  text-mainColor'>Итого: ........................................... <b className='text-xl '>990</b> ₽</div>
+						<div>Итоговая скидка ............................... 67%</div>
+						
+					</div>
+					<div className=' h-[600px] flex-grow rounded-r-2xl bg-white p-20 '>
+							<div className='h-full'>
+								<div className='text-center mb-8'><h3 className='text-[32px]'>Введите данные для оплаты</h3></div>
+								<input placeholder='Имя' className='flex mx-auto pl-4 w-[480px] h-16 bg-slate-100 rounded-2xl mb-4 ' />
+								<div className='w-[480px] flex mx-auto '>
+									<input placeholder='Телефон' className='h-16 w-full bg-slate-100 rounded-2xl pl-4 mr-2' />
+									<input placeholder='Email' className='h-16 w-full bg-slate-100 rounded-2xl pl-4 ml-2'/>
+								</div>
+								<button className=' bg-minorColor text-white w-[480px] flex  justify-center mx-auto h-16 items-center rounded-2xl mt-4'>Оплата</button>
+								<div className='flex pt-2 justify-center w-[480px] mx-auto'> 
+									<img className='m-4' src="/images/pay/mastercard.svg" alt="mastercard" />
+									<img className='m-4' src="/images/pay/mir.svg" alt="mir" />
+									<img className='m-4' src="/images/pay/visa.svg" alt="visa" />
+								</div>
+							</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	)
