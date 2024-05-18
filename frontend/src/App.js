@@ -1,6 +1,7 @@
 import React from 'react'
 import { Cards } from './components/Cards/Cards'
 import { AnchorForCourses } from './components/button/AnchorForCourses'
+import { FormPayment } from './components/formPayment/formPayment'
 import { MainSection } from './components/mainSection/mainSection'
 import { NavItem } from './components/navItem'
 import { Reviews } from './components/reviews/reviews'
@@ -233,36 +234,53 @@ function App() {
 				</div>
 			</div>
 			<div className='backGround'>
-				<div className='container mx-auto flex py-28'>
-					<div className=' bg-slate-200 rounded-l-2xl p-11 h-[600px]'>
+				<div id='Payment' className='container mx-auto flex py-28'>
+					<div className=' bg-slate-200 rounded-l-2xl p-11 h-[650px]'>
 						<div className='text-xl mt-4 '>Вы покупаете:</div>
-						<div className='text-xl mt-7 text-mainColor font-bold'>Финансовая грамотность</div>
+						<div className='text-xl mt-7 text-mainColor font-bold'>
+							Финансовая грамотность
+						</div>
 						<div className='mb-10'>с 20.05.2024 по 20.06.2024</div>
-						<div>Цена: .................................................. 2990 ₽</div>
+						<div>
+							Цена: .................................................. 2990 ₽
+						</div>
 						<div>Временная скидка: ...................... 2000 ₽</div>
 						<hr className='mt-4 mb-4 ' />
-						<div className=' font-semibold  text-mainColor'>Итого: ........................................... <b className='text-xl '>990</b> ₽</div>
+						<div className=' font-semibold  text-mainColor'>
+							Итого: ...........................................{' '}
+							<b className='text-xl '>990</b> ₽
+						</div>
 						<div>Итоговая скидка ............................... 67%</div>
-						
 					</div>
-					<div className=' h-[600px] flex-grow rounded-r-2xl bg-white p-20 '>
-							<div className='h-full'>
-								<div className='text-center mb-8'><h3 className='text-[32px]'>Введите данные для оплаты</h3></div>
-								<input placeholder='Имя' className='flex mx-auto pl-4 w-[480px] h-16 bg-slate-100 rounded-2xl mb-4 ' />
-								<div className='w-[480px] flex mx-auto '>
-									<input placeholder='Телефон' className='h-16 w-full bg-slate-100 rounded-2xl pl-4 mr-2' />
-									<input placeholder='Email' className='h-16 w-full bg-slate-100 rounded-2xl pl-4 ml-2'/>
-								</div>
-								<button className=' bg-minorColor text-white w-[480px] flex  justify-center mx-auto h-16 items-center rounded-2xl mt-4'>Оплата</button>
-								<div className='flex pt-2 justify-center w-[480px] mx-auto'> 
-									<img className='m-4' src="/images/pay/mastercard.svg" alt="mastercard" />
-									<img className='m-4' src="/images/pay/mir.svg" alt="mir" />
-									<img className='m-4' src="/images/pay/visa.svg" alt="visa" />
-								</div>
-							</div>
+					<div className=' h-[650px] flex-grow rounded-r-2xl bg-white p-11 '>
+						<div className='h-full'>
+							<FormPayment />
+						</div>
 					</div>
 				</div>
 			</div>
+			<footer className='flex container mx-auto justify-between py-16 text-lg  text-gray-400'>
+				<div>
+					<div className='flex justify-between p-3'>
+						<img src='/images/footerIcon/youtube.svg' alt='youtube' />
+						<img src='/images/footerIcon/vk.svg' alt='vk' />
+						<img src='/images/footerIcon/telegram.svg' alt='telegram' />
+					</div>
+					<div>
+						<div>© ООО «4БРЭЙН», 2012-2024</div>
+						<div>Правовые документы</div>
+					</div>
+				</div>
+				<div className='flex  items-end'>
+					<div>
+						<div>ИНН 7736275857</div>
+						<div>ОГРН 1167746818018</div>
+					</div>
+				</div>
+				<div className='flex items-end'>
+					<div>Адрес: 117303 Москва, ул. Одесская, 18/3</div>
+				</div>
+			</footer>
 		</div>
 	)
 }
