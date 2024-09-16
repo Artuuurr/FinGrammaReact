@@ -1,11 +1,11 @@
 import React from 'react'
-import { Cards } from './components/Cards/Cards'
+import { Card } from './components/Card/Card'
 import { AnchorForCourses } from './components/button/AnchorForCourses'
 import { FormPayment } from './components/formPayment/formPayment'
 import { MainSection } from './components/mainSection/mainSection'
 import { NavItem } from './components/navItem'
 import { Reviews } from './components/reviews/reviews'
-import { SuitsCards } from './components/suitsCards/suitsCards'
+import { SuitCardList } from './components/suitCard/suitCard'
 import { TitleSection } from './components/titleSection/titleSection'
 import { ReactComponent as Calendar } from './images/calendar.svg'
 import { ReactComponent as Graduation } from './images/graduation-cap.svg'
@@ -14,7 +14,7 @@ import { ReactComponent as Work } from './images/work.svg'
 
 function App() {
 	return (
-		<div>
+		<main>
 			<div className='container mx-auto  px-10 pt-8'>
 				<header className='flex items-center'>
 					<Logo className='w-40 h-14' />
@@ -51,38 +51,38 @@ function App() {
 					<TitleSection text='На этом курсе вы научитесь:' />
 
 					<div className='grid grid-cols-3 pt-14 '>
-						<Cards
-							mark='whyCards'
+						<Card
+							mark='whyCard'
 							imgRoute='/images/check.svg'
 							title='Основам и определениям'
 							text='Получите четкое понимание того, что такое финансовая грамотность и почему она является краеугольным камнем успеха в любой сфере жизни.'
 						/>
-						<Cards
-							mark='whyCards'
+						<Card
+							mark='whyCard'
 							imgRoute='/images/users.svg'
 							title='Пониманию сути денег'
 							text='Изучите историческое и современное значение денег, их свойства и роль в экономике.'
 						/>
-						<Cards
-							mark='whyCards'
+						<Card
+							mark='whyCard'
 							imgRoute='/images/edit.svg'
 							title='Планированию своих финансов'
 							text='Научитесь эффективно планировать свой бюджет и вести финансовый учет.'
 						/>
-						<Cards
-							mark='whyCards'
+						<Card
+							mark='whyCard'
 							imgRoute='/images/briefcase.svg'
 							title='Понимать финансовую систему'
 							text='Изучите, как устроена глобальная финансовая система, каковы функции и роль различных финансовых организаций, и как это влияет на вашу личную финансовую жизнь.'
 						/>
-						<Cards
-							mark='whyCards'
+						<Card
+							mark='whyCard'
 							imgRoute='/images/bullseye.svg'
 							title='Инвестированию и накоплению'
 							text='Освоите базовые принципы инвестирования и накопления. Узнаете, как разумно вкладывать средства и строить свой капитал.'
 						/>
-						<Cards
-							mark='whyCards'
+						<Card
+							mark='whyCard'
 							imgRoute='/images/human.svg'
 							title='Развитию финансового мышления'
 							text='Преобразите свой подход к деньгам, улучшите свое финансовое мышление для более эффективного управления личными финансами.'
@@ -102,36 +102,7 @@ function App() {
 								<TitleSection text='Курс вам подходит, если:' />
 							</div>
 							<div className=' w-3/5'>
-								<SuitsCards
-									imgRoute='/images/icon-list.svg'
-									textBold='Вы хотите наладить личные финансы'
-									text=' и стремитесь к более эффективному управлению своими доходами и расходами.'
-								/>
-								<SuitsCards
-									imgRoute='/images/icon-analyst.svg'
-									textBold='Вы планируете начать инвестировать'
-									text=' и хотите изучить основы управления своими инвестициями.'
-								/>
-								<SuitsCards
-									imgRoute='/images/icon-handshake.svg'
-									textBold='Вы бизнесмен или руководитель'
-									text=', поэтому нуждаетесь в глубоком понимании финансов для лучшего управления бизнесом.'
-								/>
-								<SuitsCards
-									imgRoute='/images/icon-tribune.svg'
-									textBold='Вы ищете уверенность в финансовых решениях'
-									text=', хотите научиться создавать и увеличивать свои сбережения для будущих целей.'
-								/>
-								<SuitsCards
-									imgRoute='/images/icon-dreaming.svg'
-									textBold='Вы стремитесь к финансовой независимости'
-									text=', желаете улучшить свое критическое мышление в финансовой сфере.'
-								/>
-								<SuitsCards
-									imgRoute='/images/icon-joy.svg'
-									textBold='Вы заинтересованы в развитии финансового мышления'
-									text=', хотите научиться принимать их обдуманно и взвешенно.'
-								/>
+								<SuitCardList />
 							</div>
 						</div>
 						<div className='flex '>
@@ -144,38 +115,38 @@ function App() {
 				<div>
 					<TitleSection text='Что я узнаю?' />
 					<div className='grid grid-cols-3 pt-14 '>
-						<Cards
-							mark='findCards'
+						<Card
+							mark='findCard'
 							imgRoute='/images/53.webp'
 							title='Что такое финансовая грамотность'
 							text='Определение финансовой грамотности, ее важность и влияние на личную и профессиональную жизнь.'
 						/>
-						<Cards
-							mark='findCards'
+						<Card
+							mark='findCard'
 							imgRoute='/images/22.webp'
 							title='Сущность товара и денег'
 							text='История и эволюция денег, понимание их как товара и функции в современной экономике.'
 						/>
-						<Cards
-							mark='findCards'
+						<Card
+							mark='findCard'
 							imgRoute='/images/1.webp'
 							title='Личное финансовое планирование'
 							text='Методы и стратегии для управления личными финансами, включая планирование бюджета и сбережений.'
 						/>
-						<Cards
-							mark='findCards'
+						<Card
+							mark='findCard'
 							imgRoute='/images/6.webp'
 							title='Финансовые организации и их роль'
 							text='Разбор структуры и функций финансовых организаций, включая централизованные и децентрализованные системы.'
 						/>
-						<Cards
-							mark='findCards'
+						<Card
+							mark='findCard'
 							imgRoute='/images/44.webp'
 							title='Психология денег'
 							text='Как отношение к деньгам влияет на финансовое поведение и как развить здоровые финансовые привычки.'
 						/>
-						<Cards
-							mark='findCards'
+						<Card
+							mark='findCard'
 							imgRoute='/images/2.webp'
 							title='Инструменты финансового анализа'
 							text='Основные инструменты и методы для анализа финансовой информации и принятия обоснованных финансовых решений.'
@@ -196,20 +167,20 @@ function App() {
 						получите много полезного.
 					</p>
 					<div className='grid grid-cols-3 pt-14 text-center'>
-						<Cards
-							mark='getCards'
+						<Card
+							mark='getCard'
 							imgRoute='/images/what-after-diploma.webp'
 							title='Онлайн-сертификат'
 							text='Об участии в онлайн-программе с подписью и печатью ООО 4брэйн.'
 						/>
-						<Cards
-							mark='getCards'
+						<Card
+							mark='getCard'
 							imgRoute='/images/what-after-summary.webp'
 							title='Дополнительные материалы'
 							text='Сохраняйте ссылки на статьи, названия книг и другие полезные ресурсы.'
 						/>
-						<Cards
-							mark='getCards'
+						<Card
+							mark='getCard'
 							imgRoute='/images/what-after-statistics.webp'
 							title='Статистика'
 							text='Информация о вашем прогрессе на программе и в отдельных упражнениях.'
@@ -281,7 +252,7 @@ function App() {
 					<div>Адрес: 117303 Москва, ул. Одесская, 18/3</div>
 				</div>
 			</footer>
-		</div>
+		</main>
 	)
 }
 

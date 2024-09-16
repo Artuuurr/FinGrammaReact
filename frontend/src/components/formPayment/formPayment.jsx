@@ -1,4 +1,3 @@
-import axios from 'axios'
 import React, { useState } from 'react'
 
 export const FormPayment = () => {
@@ -39,7 +38,7 @@ export const FormPayment = () => {
 			setLoading(true);
 
 			// Отправляем данные на сервер
-			const response = await axios.post(
+			const response = await fetch.post(
 				'http://localhost:3001/process-payment',
 				formData
 			)

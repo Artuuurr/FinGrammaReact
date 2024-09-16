@@ -1,11 +1,11 @@
 import React from 'react'
 
-export const Cards = ({ mark, imgRoute, title, text }) => {
+export const Card = ({ mark, imgRoute, title, text }) => {
 	return (
 		<div>
 			<div>
 				<div className=' px-12 pt-14 pb-9'>
-					{mark === 'findCards' ? (
+					{mark === 'findCard' ? (
 						<div>
 							<img
 								className='w-52 h-28 rounded-lg object-cover'
@@ -13,7 +13,7 @@ export const Cards = ({ mark, imgRoute, title, text }) => {
 								alt={title}
 							/>
 						</div>
-					) : mark === 'getCards' ? (
+					) : mark === 'getCard' ? (
 						<div className=' h-64 flex justify-center'>
 							<img src={imgRoute} alt={title} />
 						</div>
